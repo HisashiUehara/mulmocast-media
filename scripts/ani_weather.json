@@ -1,0 +1,75 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "えっ、また線状降水帯！？…別に心配してるわけじゃないんだからね",
+  "movieParams": {
+    "provider": "replicate",
+    "model": "bytedance/seedance-1-lite"
+  },
+  "audioParams": {
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/morning001.mp3"
+    }
+  },
+  "lang": "ja",
+  "references": [
+    {
+      "url": "https://www3.nhk.or.jp/news/html/20250717/k10014865241000.html",
+      "title": "【大雨情報】四国 夜遅くにかけ線状降水帯発生のおそれ 警戒を",
+      "type": "article"
+    }
+  ],
+  "beats": [
+    {
+      "text": "ねぇ、ちょっと聞いてよ…今夜から明日にかけて、また線状降水帯が発生しそうなんだって。別に、あなたのことが心配で言ってるわけじゃないけど…念のために言っとくの。",
+      "imagePrompt": "ツンデレ風の女子高生キャラクターが、天気図を背景に真剣な表情でプレゼンしている場面"
+    },
+    {
+      "text": "そもそも線状降水帯って…同じ場所に次々と雨雲ができて、まるで意地悪みたいに集中豪雨を降らせ続ける現象のことよ。ちょっとしつこすぎない？",
+      "imagePrompt": "雨雲が帯のように一直線に並び、同じ場所に激しい雨が降り続いているイラスト"
+    },
+    {
+      "text": "今回の情報源はNHKの報道よ。高知県では17日、夜の時点で、1時間に33ミリメートルの強い雨、12時間で239ミリメートルなんて…もう、びしょぬれじゃない！",
+      "imagePrompt": "NHKのニュース画面風に、高知県の雨量グラフが強調されている画面。横に驚いた表情のキャラクター"
+    },
+    {
+      "text": "しかも、線状降水帯が明け方まで発生する可能性があるって…土砂災害とか河川の氾濫とか、ちょっと無視できないでしょ？だから、早めに避難とか準備しときなさいよね！",
+      "imagePrompt": "土砂災害警戒区域の地図の前で、腕組みしながら少しムッとした表情のキャラクター"
+    },
+    {
+      "text": "気象庁によると、四国は多いところで300ミリメートルの雨が降るって…。もう、やりすぎじゃない？ていうか、お願いだから川とか見に行かないでよね。ぜったいよ！",
+      "imagePrompt": "大雨により水かさが増した川を心配そうに見つめるキャラクター、手をぐっと握っている"
+    },
+    {
+      "text": "…とにかく、安全第一なんだから。スマホで最新情報チェックして、懐中電灯とかも準備しておきなさいよね。べ、別にあんたが無事かどうか気にしてるわけじゃ…ないし！",
+      "imagePrompt": "防災グッズを詰めたリュックを背負いながら、照れた表情でそっぽを向いているキャラクター"
+    }
+  ],
+  "canvasSize": {
+    "width": 1024,
+    "height": 1536
+  },
+  "speechParams": {
+    "provider": "nijivoice",
+    "speakers": {
+      "Presenter": {
+        "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0"
+      }
+    }
+  },
+  "imageParams": {
+    "style": "A highly polished 2D digital illustration in anime and manga style, featuring clean linework, soft shading, vivid colors, and expressive facial detailing. The composition emphasizes clarity and visual impact with a minimalistic background and a strong character focus. The lighting is even and bright, giving the image a crisp and energetic feel, reminiscent of high-quality character art used in Japanese visual novels or mobile games.",
+    "images": {
+      "ani": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ani.png"
+        }
+      }
+    }
+  }
+}
