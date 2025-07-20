@@ -1,0 +1,111 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "canvasSize": {
+    "width": 1024,
+    "height": 1536
+  },
+  "speechParams": {
+    "provider": "nijivoice",
+    "speakers": {
+      "Presenter": {
+        "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0"
+      }
+    }
+  },
+  "imageParams": {
+    "provider": "openai",
+    "images": {
+      "ani": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ani.png"
+        }
+      }
+    }
+  },
+  "movieParams": {
+    "provider": "replicate",
+    "model": "bytedance/seedance-1-pro",
+    "transition": {
+      "type": "fade",
+      "duration": 0.3
+    }
+  },
+  "audioParams": {
+    "padding": 0,
+    "introPadding": 0,
+    "closingPadding": 0,
+    "outroPadding": 1,
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/morning001.mp3"
+    },
+    "bgmVolume": 0.2,
+    "audioVolume": 1,
+    "suppressSpeech": false
+  },
+  "title": "スケートボードを楽しむアニー",
+  "lang": "ja",
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "原宿",
+      "id": "91b30943-fcb6-4804-bdba-faa23974f146",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女が原宿の街中でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skateboarder is skating beautifully in the middle of street. The camera follows her. People on the streat are watching her, some with smile, other with surpises."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ニューヨーク",
+      "id": "d2773d74-d92a-4fdd-8c30-c8ddd559e907",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女がニューヨークの街中でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skateboarder is skating beautifully in the middle of street. The camera follows her. People on the streat are watching her, some with smile, other with surpises."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "パリ",
+      "id": "aa7cb378-c680-4b32-8de2-2302b85f1c0f",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女がパリの街中でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skateboarder is skating beautifully in the middle of street. The camera follows her. People on the streat are watching her, some with smile, other with surpises."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "イスタンブール",
+      "id": "74645140-c0de-44f2-9cd3-c56ede855f2c",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女がイスタンブールの街中でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skateboarder is skating beautifully in the middle of street. The camera follows her. People on the streat are watching her, some with smile, other with surpises. After five seconds, she shows some trick moves like flipping the board and jumping."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ムンバイ",
+      "id": "28e1d8a1-0474-4d71-930e-b32351a761ca",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女がムンバイの街中でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skateboarder is skating beautifully in the middle of street. The camera follows her. A car drives toward her from the front, but she elegantly jumps over it and continue to skate."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ホノルル",
+      "id": "f6e58f0a-fae9-425f-ba20-541f9923700c",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女がホノルルの海岸沿いの道でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skater skates this street and the camera follows her. She uses the curb and jump very high, and flips beautifully and lands and continues to skate."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "香港",
+      "id": "b5c91e9c-9104-40bd-bfb0-6049dee9b151",
+      "duration": 10,
+      "imagePrompt": "ツンデレ少女が香港の街中でスケートボードに乗っている後ろ姿。街には大勢の人が歩いている。両側のお店は丁寧にリアリスティックに細部まで描かれている。",
+      "moviePrompt": "The skateboarder is skating beautifully in the middle of street. The camera follows her. A few kung fu fighters attack her, but she skates between them elegantly."
+    }
+  ]
+}
